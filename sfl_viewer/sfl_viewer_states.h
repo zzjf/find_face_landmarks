@@ -56,7 +56,7 @@ namespace sfl
         sc::result react(const EvStart&);
 
         typedef mpl::list<
-            sc::in_state_reaction<EvUpdate, Inactive, (void(Inactive::*)(const EvUpdate&))(&Inactive::onUpdate)>,
+            sc::in_state_reaction<EvUpdate, Inactive, (&Inactive::onUpdate)>,
             sc::custom_reaction< EvStart > > reactions;
 
         Viewer* viewer;
@@ -70,8 +70,8 @@ namespace sfl
         void onStart(const EvStart& event);
 
         typedef mpl::list<
-            sc::in_state_reaction<EvSeek, Active, (void(Active::*)(const EvSeek&))(&Active::onSeek)>,
-            sc::in_state_reaction<EvStart, Active, (void(Active::*)(const EvStart&))(&Active::onStart)>,
+            sc::in_state_reaction<EvSeek, Active, (&Active::onSeek)>,
+            sc::in_state_reaction<EvStart, Active, (&Active::onStart)>,
             sc::transition< EvReset, Inactive > > reactions;
 
         Viewer* viewer;
@@ -84,7 +84,7 @@ namespace sfl
         void onUpdate(const EvUpdate& event);
 
         typedef mpl::list<
-            sc::in_state_reaction<EvUpdate, Paused, (void(Paused::*)(const EvUpdate&))(&Paused::onUpdate)>,
+            sc::in_state_reaction<EvUpdate, Paused, (&Paused::onUpdate)>,
             sc::transition< EvPlayPause, Playing > > reactions;
 
         Viewer* viewer;
@@ -100,8 +100,8 @@ namespace sfl
         void onTimerTick(const EvTimerTick& event);
 
         typedef mpl::list<
-            sc::in_state_reaction<EvUpdate, Playing, (void(Playing::*)(const EvUpdate&))(&Playing::onUpdate)>,
-            sc::in_state_reaction<EvTimerTick, Playing, (void(Playing::*)(const EvTimerTick&))(&Playing::onTimerTick)>,
+            sc::in_state_reaction<EvUpdate, Playing, (&Playing::onUpdate)>,
+            sc::in_state_reaction<EvTimerTick, Playing, (&Playing::onTimerTick)>,
             sc::transition< EvPlayPause, Paused > > reactions;
 
         Viewer* viewer;

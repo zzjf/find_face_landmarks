@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.4)
 project(find_face_landmarks)
 
+set(CMAKE_PREFIX_PATH /usr/local/Cellar/qt/5.9.1)
 # Set version
 set(FFL_MAJOR_VERSION 1)
 set(FFL_MINOR_VERSION 2)

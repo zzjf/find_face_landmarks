@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="find_face_landmarks"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\dlib\;CMake Files\..\..\..\..\usr\local\include\;CMake Files\..\..\..\..\usr\local\include\dlib\;CMake Files\..\..\..\..\usr\local\include\dlib\cmake_utils\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\usr\local\Cellar\;CMake Files\..\..\..\..\usr\local\Cellar\qt\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Core\;CMake Files\cmake\;CMake Files\sequence_face_landmarks\;CMake Files\sfl_cache\;CMake Files\sfl_viewer\;CMake Files\sfl_track\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sequence_face_landmarks">
+				<Option output="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks/libsequence_face_landmarks_d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_PROTOBUF"/>
+					<Add option="-DWITH_OPENCV_CONTRIB"/>
+					<Add directory="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr"/>
+					<Add directory="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks/Makefile&quot;  VERBOSE=1 sequence_face_landmarks"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sequence_face_landmarks/fast">
+				<Option output="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks/libsequence_face_landmarks_d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_PROTOBUF"/>
+					<Add option="-DWITH_OPENCV_CONTRIB"/>
+					<Add directory="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr"/>
+					<Add directory="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks/Makefile&quot;  VERBOSE=1 sequence_face_landmarks/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sfl_cache">
+				<Option output="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_cache/sfl_cache" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_cache"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_cache/Makefile&quot;  VERBOSE=1 sfl_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_cache/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_cache/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_cache/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sfl_cache/fast">
+				<Option output="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_cache/sfl_cache" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_cache"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_cache/Makefile&quot;  VERBOSE=1 sfl_cache/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_cache/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_cache/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_cache/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sfl_viewer">
+				<Option output="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/sfl_viewer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/Users/kevinjfliu/Downloads/find_face_landmarks/sfl_viewer"/>
+					<Add directory="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr"/>
+					<Add directory="/usr/local/Cellar/qt/5.9.1/lib/QtWidgets.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.9.1/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.9.1/lib/QtGui.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.9.1/lib/QtGui.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.9.1/lib/QtCore.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.9.1/lib/QtCore.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.9.1/./mkspecs/macx-clang"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/Makefile&quot;  VERBOSE=1 sfl_viewer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sfl_viewer/fast">
+				<Option output="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/sfl_viewer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/Users/kevinjfliu/Downloads/find_face_landmarks/sfl_viewer"/>
+					<Add directory="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr"/>
+					<Add directory="/usr/local/Cellar/qt/5.9.1/lib/QtWidgets.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.9.1/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.9.1/lib/QtGui.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.9.1/lib/QtGui.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.9.1/lib/QtCore.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.9.1/lib/QtCore.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.9.1/./mkspecs/macx-clang"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/Makefile&quot;  VERBOSE=1 sfl_viewer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sfl_track">
+				<Option output="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_track/sfl_track" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_track"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_track/Makefile&quot;  VERBOSE=1 sfl_track"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_track/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_track/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_track/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sfl_track/fast">
+				<Option output="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_track/sfl_track" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_track"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_track/Makefile&quot;  VERBOSE=1 sfl_track/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_track/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_track/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_track/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks/sequence_face_landmarks.pb.cc">
+			<Option target="sequence_face_landmarks"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks/sequence_face_landmarks.pb.cc.rule">
+			<Option target="sequence_face_landmarks"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sequence_face_landmarks/sequence_face_landmarks.pb.h">
+			<Option target="sequence_face_landmarks"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/moc_sfl_viewer.cpp">
+			<Option target="sfl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/moc_sfl_viewer.cpp.rule">
+			<Option target="sfl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/moc_sfl_viewer_states.cpp">
+			<Option target="sfl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/moc_sfl_viewer_states.cpp.rule">
+			<Option target="sfl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/qrc_sfl_viewer.cpp">
+			<Option target="sfl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug/sfl_viewer/ui_sfl_viewer.h">
+			<Option target="sfl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks/face_tracker_brisk.cpp">
+			<Option target="sequence_face_landmarks"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks/face_tracker_lbp.cpp">
+			<Option target="sequence_face_landmarks"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks/sequence_face_landmarks.cpp">
+			<Option target="sequence_face_landmarks"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks/sequence_face_landmarks.proto">
+			<Option target="sequence_face_landmarks"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks/sfl/face_tracker.h">
+			<Option target="sequence_face_landmarks"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks/sfl/sequence_face_landmarks.h">
+			<Option target="sequence_face_landmarks"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks/sfl/utilities.h">
+			<Option target="sequence_face_landmarks"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks/utilities.cpp">
+			<Option target="sequence_face_landmarks"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sfl_cache/sfl_cache.cpp">
+			<Option target="sfl_cache"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sfl_track/sfl_track.cpp">
+			<Option target="sfl_track"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sfl_viewer/sfl_viewer.cpp">
+			<Option target="sfl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sfl_viewer/sfl_viewer.h">
+			<Option target="sfl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sfl_viewer/sfl_viewer.qrc">
+			<Option target="sfl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sfl_viewer/sfl_viewer.ui">
+			<Option target="sfl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sfl_viewer/sfl_viewer_main.cpp">
+			<Option target="sfl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sfl_viewer/sfl_viewer_states.cpp">
+			<Option target="sfl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sfl_viewer/sfl_viewer_states.h">
+			<Option target="sfl_viewer"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/lib/cmake/dlib/dlibConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\dlib\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/lib/cmake/dlib/dlibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\dlib\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/lib/cmake/dlib/dlib.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\dlib\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/lib/cmake/dlib/dlib-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\dlib\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/include/dlib/cmake_utils/use_cpp_11.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\include\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/include/dlib/cmake_utils/add_global_compiler_switch.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\include\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/../../../../usr/local/Cellar/qt/5.9.1/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.9.1\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake/find_face_landmarks-config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/cmake/find_face_landmarks-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sequence_face_landmarks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sequence_face_landmarks\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sfl_cache/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sfl_cache\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sfl_viewer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sfl_viewer\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sfl_viewer/sfl_viewer.qrc">
+			<Option virtualFolder="CMake Files\sfl_viewer\"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/Downloads/find_face_landmarks/sfl_track/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sfl_track\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,11 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/kevinjfliu/Downloads/find_face_landmarks
+-- Found OpenCV: /usr/local (found version "3.3.0") found components:  highgui imgproc imgcodecs features2d 
+-- Found OpenCV: /usr/local (found version "3.3.0") found components:  face 
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   filesystem
+--   program_options
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/kevinjfliu/Downloads/find_face_landmarks/cmake-build-debug

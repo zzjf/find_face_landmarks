@@ -1,4 +1,5 @@
 # Validation
+set(CMAKE_PREFIX_PATH /usr/local/Cellar/qt/5.9.1)
 if(NOT Boost_FOUND)
 	message(STATUS "sfl_viewer won't be built because Boost is missing.")
 	return()
